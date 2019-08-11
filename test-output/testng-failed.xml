@@ -5,10 +5,11 @@
     <classes>
       <class name="framework.BasePage">
         <methods>
-          <include name="Read"/>
-          <include name="Update"/>
-          <include name="afterClass"/>
-          <include name="Launch"/>
+          <include name="Delete"/>
+          <include name="afterTestClass"/>
+          <include name="beforeTestClass"/>
+          <include name="afterTestMethod"/>
+          <include name="beforeTestMethod"/>
         </methods>
       </class> <!-- framework.BasePage -->
     </classes>

@@ -51,8 +51,8 @@ public class HomePage {
 		return element;		
 	}
 	
-	public static boolean isAlphabetic(String s) {
+/*	public static boolean isAlphabetic(String s) {
 	    String pattern= "^[a-zA-Z]*$";
 	    return s.matches(pattern);
 	}
-}
+*/}
