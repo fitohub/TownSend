@@ -9,15 +9,50 @@ public class HomePage {
 
 	private static WebElement element = null;
 	
-	public static WebElement Login(WebDriver driver) {
-		element = driver.findElement(By.id("login-form"));
-		Log.info("Log In element found.");
+	public static WebElement btnLogout(WebDriver driver) {
+		element = driver.findElement(By.xpath("//*[@ng-click='logout()']"));
+		Log.info("Log Out button found.");
 		return element;
 	} 
 
-	public static WebElement Logout(WebDriver driver) {
-		element = driver.findElement(By.xpath("//*[@ng-click='logout()']"));
-		Log.info("Log Out element found.");
+	public static WebElement btnCreate(WebDriver driver) {
+		element = driver.findElement(By.id("bAdd"));
+		Log.info("Create button found.");
 		return element;
 	} 
+
+	public static WebElement btnDelete(WebDriver driver) {
+		element = driver.findElement(By.id("bDelete"));
+		Log.info("Delete button found.");
+		return element;
+	} 
+
+	public static WebElement btnEdit(WebDriver driver) {
+		element = driver.findElement(By.id("bEdit"));
+		Log.info("Edit button found.");
+		return element;
+	} 
+
+	public static WebElement lstEmployee(WebDriver driver) {
+		element = driver.findElement(By.id("employee-list"));
+		Log.info("Employee list found.");
+		return element;
+	} 
+
+	public static WebElement searchEmployee(WebDriver driver, String firstName, String lastName) throws Exception {
+
+		try {
+			element = driver.findElement(By.xpath("//li[@ng-repeat='employee in employees' and contains(text(), '" + firstName + " " + lastName + "')]"));
+			Log.info("Employee name found.");
+		} catch (Exception e) {
+			Log.info("Employee name not found.");
+		}
+		
+		return element;		
+	}
+	
+	public static boolean isAlphabetic(String s) {
+	    String pattern= "^[a-zA-Z]*$";
+	    return s.matches(pattern);
+	}
 }

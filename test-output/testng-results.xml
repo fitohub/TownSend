@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29904" started-at="2019-08-11T19:53:28Z" finished-at="2019-08-11T19:53:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29904" started-at="2019-08-11T19:53:28Z" finished-at="2019-08-11T19:53:58Z">
+      <class name="framework.BasePage">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:framework.BasePage@589838eb]" name="Launch" is-config="true" duration-ms="5167" started-at="2019-08-11T19:53:28Z" finished-at="2019-08-11T19:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:framework.BasePage@589838eb]" name="SignIn" duration-ms="2469" started-at="2019-08-11T19:53:33Z" description="Access application with a valid credential." finished-at="2019-08-11T19:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="Create()[pri:1, instance:framework.BasePage@589838eb]" name="Create" duration-ms="4669" started-at="2019-08-11T19:53:36Z" description="Creates a new employee." finished-at="2019-08-11T19:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create -->
+        <test-method status="PASS" signature="Read()[pri:2, instance:framework.BasePage@589838eb]" name="Read" duration-ms="5000" started-at="2019-08-11T19:53:41Z" description="Read an employee information." finished-at="2019-08-11T19:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Read -->
+        <test-method status="PASS" signature="Update()[pri:3, instance:framework.BasePage@589838eb]" name="Update" duration-ms="5144" started-at="2019-08-11T19:53:46Z" description="Updates an employee." finished-at="2019-08-11T19:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update -->
+        <test-method status="PASS" signature="Delete()[pri:4, instance:framework.BasePage@589838eb]" name="Delete" duration-ms="6334" started-at="2019-08-11T19:53:51Z" description="Removes an employee." finished-at="2019-08-11T19:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:framework.BasePage@589838eb]" name="afterClass" is-config="true" duration-ms="1084" started-at="2019-08-11T19:53:57Z" description="Logout" finished-at="2019-08-11T19:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- framework.BasePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
