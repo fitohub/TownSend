@@ -49,15 +49,15 @@ Firefox 68.0.1
 3. git remote add origin "https://github.com/fitohub/TownSend.git"
 4. git pull origin master
 
-# File Structure
+# Project Structure
 TownSend
    |
    |-- src
    |    |
-   |	|-- appModules
+   |	|--- appModules
    |	|       |
-   |	|	|--- CreateAction.java
-   |	|	|--- DeleteAction.java
+   |	|       |--- CreateAction.java
+   |	|       |--- DeleteAction.java
    |	|       |--- ReadAction.java
    |	|	|--- SignInAction.java
    |	|	|--- SignOutAction.java
@@ -74,16 +74,16 @@ TownSend
    |	|        --- LoginPage.java
    |	|
    |	|--- testData
-   |	|	|
-   |	|	 --- testData.xlsx
+   |	|       |
+   |	|        --- testData.xlsx
    |	|
-   |	|--- testData
+   |	 --- testData
    |		|
    |		|--- Constants.java
    |		|--- ExcelUtils.java		
    |		|--- Log.java
    |		 --- testng.xml
-   |			
+   |
    |--- log4j.xml
    |--- logfile.log
    |--- pom.xml
