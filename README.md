@@ -3,7 +3,7 @@ The aim of this framework is to cover the 4 main functionalities: Create, Read, 
 
 I created this framework with Java, Selenium and TestNG, and structured in a way that no data is left in the application. So, feel free to change the data and execute as much as you want. Also, for debug purposes (that was very helpful during the creation of this framework), I included a log feature for each step. The test results can be extracted from the "test-output" folder in HTML format. You can see the results on both "index.html" and "emailable-report.html".
 
-Kick-off the test from "TownSend/src/framework/BasePage.java". Also, for better maintenability and organization, I kept the features in modules at "appModules" package and the pages definitions in an repository package named "pageObjects". 
+Kick-off the test from "TownSend/src/framework/BasePage.java". Also, for better maintenability and reusability, I organized the features in modules at "appModules" package and the pages definitions in an repository package named "pageObjects". 
 
 The data (at testData package) is recorded in an Excel spreadsheet. At last, I grouped some support files in the "utility" package.
 
