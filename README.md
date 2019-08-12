@@ -51,24 +51,18 @@ Firefox 68.0.1
 
 # Project Structure
 TownSend
-   |
-   |-- src
-   |    |
-   |	|--- appModules
-   |	|       |
-   |	|       |--- CreateAction.java
-   |	|       |--- DeleteAction.java
-   |	|       |--- ReadAction.java
-   |	|	|--- SignInAction.java
-   |	|	|--- SignOutAction.java
-   |	|	 --- UpdateAction.java
-   |	|
-   |    |--- framework
-   |	|       |
-   |	|        --- BasePage.java
-   |	|
-   |	|--- pageObjects
-   |	|       |
+:src
+:... appModules
+:..... CreateAction.java
+:..... DeleteAction.java
+:..... ReadAction.java
+:..... SignInAction.java
+:..... SignOutAction.java
+:..... UpdateAction.java
+:...framework
+:..... BasePage.java
+:... pageObjects
+:..... EmployeePage.java
    |	|       |--- EmployeePage.java
    |	|       |--- HomePage.java
    |	|        --- LoginPage.java
