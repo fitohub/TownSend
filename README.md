@@ -57,7 +57,19 @@ Test Case 6: Log out from application
 2. Download the code into eclipse-workspace;
 3. git remote add origin "https://github.com/fitohub/TownSend.git";
 4. git pull origin master.
-		
+
+# Cloning TownSend repository with git
+1. You can get TownSend repository with: 
+
+git clone https://github.com/fitohub/TownSend.git
+
+2. That creates a directory named TownSend, initializes a .git directory inside it, pulls down all the data for that repository, and checks out a working copy of the latest version. If you go into the new TownSend directory that was just created, you will see the project files in there, ready to be worked on or used;
+3. If you want to clone the repository into a directory named something other than TownSend, you can specify the new directory name as an additional argument: 
+
+git clone https://github.com/fitohub/TownSend.git cafeTownSend
+
+That command does the same thing as the previous one, but the target directory is called “cafeTownSend”.
+
 # Test Data
 No changes needed. Unless if you want to try a different name, date and/or e-mail address. 
 
