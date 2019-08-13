@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8828" started-at="2019-08-11T22:54:24Z" finished-at="2019-08-11T22:54:33Z">
+  <suite name="Default suite" duration-ms="10151" started-at="2019-08-13T16:10:12Z" finished-at="2019-08-13T16:10:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8828" started-at="2019-08-11T22:54:24Z" finished-at="2019-08-11T22:54:33Z">
+    <test name="Default test" duration-ms="10151" started-at="2019-08-13T16:10:12Z" finished-at="2019-08-13T16:10:22Z">
       <class name="framework.BasePage">
-        <test-method status="PASS" signature="beforeTestClass()[pri:0, instance:framework.BasePage@6500df86]" name="beforeTestClass" is-config="true" duration-ms="4332" started-at="2019-08-11T22:54:24Z" finished-at="2019-08-11T22:54:28Z">
+        <test-method status="PASS" signature="beforeTestClass()[pri:0, instance:framework.BasePage@64bf3bbf]" name="beforeTestClass" is-config="true" duration-ms="5657" started-at="2019-08-13T16:10:12Z" finished-at="2019-08-13T16:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestClass -->
-        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-11T22:54:28Z" description="Includes Start method header." finished-at="2019-08-11T22:54:28Z">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="beforeTestMethod" is-config="true" duration-ms="3" started-at="2019-08-13T16:10:17Z" description="Includes Start method header." finished-at="2019-08-13T16:10:17Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="SignIn()[pri:0, instance:framework.BasePage@6500df86]" name="SignIn" duration-ms="451" started-at="2019-08-11T22:54:28Z" description="Access application with a valid credential." finished-at="2019-08-11T22:54:29Z">
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:framework.BasePage@64bf3bbf]" name="SignIn" duration-ms="480" started-at="2019-08-13T16:10:17Z" description="Access application with a valid credential." finished-at="2019-08-13T16:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn -->
-        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="afterTestMethod" is-config="true" duration-ms="3" started-at="2019-08-11T22:54:29Z" description="Includes End method footer." finished-at="2019-08-11T22:54:29Z">
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:18Z" description="Includes End method footer." finished-at="2019-08-13T16:10:18Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-11T22:54:29Z" description="Includes Start method header." finished-at="2019-08-11T22:54:29Z">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:18Z" description="Includes Start method header." finished-at="2019-08-13T16:10:18Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="Create()[pri:1, instance:framework.BasePage@6500df86]" name="Create" duration-ms="783" started-at="2019-08-11T22:54:29Z" description="Creates a new employee." finished-at="2019-08-11T22:54:30Z">
+        <test-method status="PASS" signature="Create()[pri:1, instance:framework.BasePage@64bf3bbf]" name="Create" duration-ms="780" started-at="2019-08-13T16:10:18Z" description="Creates a new employee." finished-at="2019-08-13T16:10:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create -->
-        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-11T22:54:30Z" description="Includes End method footer." finished-at="2019-08-11T22:54:30Z">
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:19Z" description="Includes End method footer." finished-at="2019-08-13T16:10:19Z">
           <params>
             <param index="0">
               <value>
@@ -63,22 +63,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2019-08-11T22:54:30Z" description="Includes Start method header." finished-at="2019-08-11T22:54:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void framework.BasePage.Read() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="Read()[pri:2, instance:framework.BasePage@6500df86]" name="Read" duration-ms="854" started-at="2019-08-11T22:54:30Z" description="Read an employee information." finished-at="2019-08-11T22:54:30Z">
+        <test-method status="PASS" signature="Read()[pri:2, instance:framework.BasePage@64bf3bbf]" name="Read" duration-ms="863" started-at="2019-08-13T16:10:19Z" description="Read an employee information." finished-at="2019-08-13T16:10:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Read -->
-        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2019-08-11T22:54:30Z" description="Includes End method footer." finished-at="2019-08-11T22:54:30Z">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2019-08-13T16:10:19Z" description="Includes Start method header." finished-at="2019-08-13T16:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void framework.BasePage.Read() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:20Z" description="Includes End method footer." finished-at="2019-08-13T16:10:20Z">
           <params>
             <param index="0">
               <value>
@@ -89,22 +89,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method status="PASS" signature="Update()[pri:3, instance:framework.BasePage@6500df86]" name="Update" duration-ms="990" started-at="2019-08-11T22:54:30Z" description="Updates an employee." finished-at="2019-08-11T22:54:31Z">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:20Z" description="Includes Start method header." finished-at="2019-08-13T16:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void framework.BasePage.Update() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="Update()[pri:3, instance:framework.BasePage@64bf3bbf]" name="Update" duration-ms="987" started-at="2019-08-13T16:10:20Z" description="Updates an employee." finished-at="2019-08-13T16:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Update -->
-        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2019-08-11T22:54:30Z" description="Includes Start method header." finished-at="2019-08-11T22:54:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void framework.BasePage.Update() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2019-08-11T22:54:31Z" description="Includes End method footer." finished-at="2019-08-11T22:54:31Z">
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:21Z" description="Includes End method footer." finished-at="2019-08-13T16:10:21Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2019-08-11T22:54:31Z" description="Includes Start method header." finished-at="2019-08-11T22:54:31Z">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="beforeTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:21Z" description="Includes Start method header." finished-at="2019-08-13T16:10:21Z">
           <params>
             <param index="0">
               <value>
@@ -126,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="Delete()[pri:4, instance:framework.BasePage@6500df86]" name="Delete" duration-ms="364" started-at="2019-08-11T22:54:31Z" description="Removes an employee." finished-at="2019-08-11T22:54:32Z">
+        <test-method status="PASS" signature="Delete()[pri:4, instance:framework.BasePage@64bf3bbf]" name="Delete" duration-ms="332" started-at="2019-08-13T16:10:21Z" description="Removes an employee." finished-at="2019-08-13T16:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Delete -->
-        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-11T22:54:32Z" description="Includes End method footer." finished-at="2019-08-11T22:54:32Z">
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="afterTestMethod" is-config="true" duration-ms="0" started-at="2019-08-13T16:10:21Z" description="Includes End method footer." finished-at="2019-08-13T16:10:21Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="beforeTestMethod" is-config="true" duration-ms="3" started-at="2019-08-11T22:54:32Z" description="Includes Start method header." finished-at="2019-08-11T22:54:32Z">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="beforeTestMethod" is-config="true" duration-ms="0" started-at="2019-08-13T16:10:21Z" description="Includes Start method header." finished-at="2019-08-13T16:10:21Z">
           <params>
             <param index="0">
               <value>
@@ -152,11 +152,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="SignOut()[pri:5, instance:framework.BasePage@6500df86]" name="SignOut" duration-ms="263" started-at="2019-08-11T22:54:32Z" description="Logoff application." finished-at="2019-08-11T22:54:32Z">
+        <test-method status="PASS" signature="SignOut()[pri:5, instance:framework.BasePage@64bf3bbf]" name="SignOut" duration-ms="242" started-at="2019-08-13T16:10:21Z" description="Logoff application." finished-at="2019-08-13T16:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOut -->
-        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@6500df86]" name="afterTestMethod" is-config="true" duration-ms="4" started-at="2019-08-11T22:54:32Z" description="Includes End method footer." finished-at="2019-08-11T22:54:32Z">
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:framework.BasePage@64bf3bbf]" name="afterTestMethod" is-config="true" duration-ms="1" started-at="2019-08-13T16:10:21Z" description="Includes End method footer." finished-at="2019-08-13T16:10:21Z">
           <params>
             <param index="0">
               <value>
@@ -167,11 +167,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method status="PASS" signature="afterTestClass()[pri:0, instance:framework.BasePage@6500df86]" name="afterTestClass" is-config="true" duration-ms="731" started-at="2019-08-11T22:54:32Z" description="Closedown execution." finished-at="2019-08-11T22:54:33Z">
+        <test-method status="PASS" signature="afterTestClass()[pri:0, instance:framework.BasePage@64bf3bbf]" name="afterTestClass" is-config="true" duration-ms="752" started-at="2019-08-13T16:10:21Z" description="Closedown execution." finished-at="2019-08-13T16:10:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestClass -->
       </class> <!-- framework.BasePage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
