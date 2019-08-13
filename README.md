@@ -43,15 +43,6 @@ Test Case 6: Log out from application
 2. Check if you back to Login page;
 3. Close the browser.
 
-# IDE Setup
-1. Eclipse 4.9.0 (Photon Release)
-2. Maven 3.4.5 
-3. Selenium 3.141.59
-4. Java 1.8
-5. POI 4.0.0
-6. TestNG 6.14.3
-7. Firefox 68.0.1
-
 # Cloning TownSend repository with git
 1. You can get TownSend repository with: 
 	$ git clone https://github.com/fitohub/TownSend.git
@@ -59,6 +50,19 @@ Test Case 6: Log out from application
 3. If you want to clone the repository into a directory named something other than TownSend, you can specify the new directory name as an additional argument: 
 	$ git clone https://github.com/fitohub/TownSend.git cafeTownSend
 That command does the same thing as the previous one, but the target directory is called “cafeTownSend”.
+
+# Software Requirements
+1. MacOS 10.14.4 (Mojave);
+2. Firefox 68.0.1; 
+3. Java 1.8;
+4. Eclipse 4.9.0 (Photon Release);
+5. git;
+6. Maven 3.4.5;
+7. Selenium 3.141.59; 
+8. TestNG 6.14.3;
+9. POI 4.0.0;
+
+See "TownSend - Installation  and Configuration Manual for MacOS.pdf" for your IDE Setup.
 
 # Test Data
 No changes needed. Unless if you want to try a different name, date and/or e-mail address. 
