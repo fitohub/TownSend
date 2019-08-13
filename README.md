@@ -60,7 +60,7 @@ That command does the same thing as the previous one, but the target directory i
 6. Maven 3.4.5;
 7. Selenium 3.141.59; 
 8. TestNG 6.14.3;
-9. POI 4.0.0;
+9. POI 4.0.0.
 
 See "TownSend - Installation  and Configuration Manual for MacOS.pdf" for your IDE Setup.
 
