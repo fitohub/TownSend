@@ -1,4 +1,4 @@
-# TEST APPROACH
+# Test Approach
 The aim of this framework is to cover the 4 main functionalities: Create, Read, Update and Delete as well as Login and Logout. I choose this approach because from these 4 functionalities it is possible create more scripts for positive and negative tests. The baseline is ready.
 
 I created this framework with Java, Selenium and TestNG, and structured in a way that no data is left in the application. So, feel free to change the data and execute as much as you want. Also, for debug purposes (that was very helpful during the creation of this framework), I included a log feature for each step. The test results can be extracted from the "test-output" folder in HTML format. You can see the results on both "index.html" and "emailable-report.html".
@@ -7,7 +7,7 @@ Kick-off the test from "TownSend/src/framework/BasePage.java". Also, for better 
 
 The data (at testData package) is recorded in an Excel spreadsheet. At last, I grouped some support files in the "utility" package.
 
-# TEST CASES
+# Test Cases
 Test Case 1: Access application with a valid customer
 1. Enter Username;
 2. Enter Password;
@@ -43,7 +43,7 @@ Test Case 6: Log out from application
 2. Check if you back to Login page;
 3. Close the browser.
 
-# IDE SETUP
+# IDE Setup
 1. Eclipse 4.9.0 (Photon Release)
 2. Maven 3.4.5 
 3. Selenium 3.141.59
@@ -52,7 +52,7 @@ Test Case 6: Log out from application
 6. TestNG 6.14.3
 7. Firefox 68.0.1
 
-# Checkout from github
+# Checkout from Github
 1. Open terminal or Windows prompt session;
 2. Download the code into eclipse-workspace;
 3. git remote add origin "https://github.com/fitohub/TownSend.git";
@@ -66,5 +66,5 @@ No changes needed. Unless if you want to try a different name, date and/or e-mai
 2. From Project Explorer, navigate through TownSend -> src -> framework and run the file "BasePage.java" as TestNG Test;
 3. The test will perform a CRUD with 6 test cases: SignIn, Create, Read, Update, Delete and SignOut against Café Townsend website. This is a zero-footprint execution.
 
-# Log file
+# Log File
 In the root directory, you will find the log file (logfile.log) with details about the test execution.
