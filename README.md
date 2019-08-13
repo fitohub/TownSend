@@ -43,7 +43,7 @@ Test Case 6: Log out from application
 2. Check if you back to Login page;
 3. Close the browser.
 
-# Cloning TownSend repository with git
+# Copy TownSend repository into your local machine with git clone
 1. You can get TownSend repository with: 
 	$ git clone https://github.com/fitohub/TownSend.git
 2. That creates a directory named TownSend, initializes a .git directory inside it, pulls down all the data for that repository, and checks out a working copy of the latest version. If you go into the new TownSend directory that was just created, you will see the project files in there, ready to be worked on or used;
