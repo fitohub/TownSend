@@ -9,13 +9,10 @@ import utility.Log;
 import org.testng.Assert;
 
 public class ReadAction {
-	public static Boolean ExecuteRead(WebDriver driver, String sFirstName, String sLastName, String sStartDate, String sEmail) throws Exception {
-		Boolean bol = false;
+	public static void ExecuteRead(WebDriver driver, WebElement employeeName, String sFirstName, String sLastName, String sStartDate, String sEmail) throws Exception {
 		
-		WebElement employeeName;
-		employeeName = HomePage.searchEmployee(driver, sFirstName, sLastName);
-
 		if (employeeName != null) {
+			
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", employeeName);
 			Log.info("Employee name is displayed in the list.");
 
@@ -40,10 +37,6 @@ public class ReadAction {
 			EmployeePage.btnBack(driver).click();
 			Log.info("Back button clicked.");
 
-			bol = true; 
-			
 		}
-		
-		return bol;
 	}
 }

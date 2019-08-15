@@ -42,12 +42,18 @@ public class UpdatePage extends Setup {
 	@Test (description="Updates an employee.", priority=1)
 	public static void Update() throws Exception {
 		if (HomePage.IsHomePagePresent(driver)) {
-			UpdateAction.ExecuteUpdate(driver, sFirstName, sLastName, sLastNameChanged);
+			if (employeeName != null) {
 
-			ExcelUtils.setCellData(sLastNameChanged, rowNum, 4);
-			Log.info("Last name updated from " + sLastName + " to " + sLastNameChanged  + ".");
+				UpdateAction.ExecuteUpdate(driver, employeeName, sFirstName, sLastName, sLastNameChanged);
 
-			Assert.assertFalse(sLastName.equals(ExcelUtils.getCellData(rowNum, 4)), "Last name value was not changed.");
+				ExcelUtils.setCellData(sLastNameChanged, rowNum, 4);
+				Log.info("Last name updated from " + sLastName + " to " + sLastNameChanged  + ".");
+
+				Assert.assertFalse(sLastName.equals(ExcelUtils.getCellData(rowNum, 4)), "Last name value was not changed.");
+			} else {
+				Assert.fail("Employee name not found.");		
+			}
+
 		}
 	}
 

@@ -38,10 +38,17 @@ public class DeletePage extends Setup {
 	@Test (description="Removes an employee.", priority=1)
 	public static void Delete() throws Exception {
 		if (HomePage.IsHomePagePresent(driver)) {
-			rc = DeleteAction.ExecuteDelete(driver, sFirstName, sLastNameChanged);
-
-			Assert.assertTrue(rc, "Employee is still in the list.");
+			if (employeeName != null) {
+				DeleteAction.ExecuteDelete(driver, sFirstName, sLastNameChanged);
+			} else {
+				Assert.fail("Employee name not found.");	
+			}
 		}
+		
+		Thread.sleep(200);
+		employeeName = null;
+		employeeName = HomePage.searchEmployee(driver, sFirstName, sLastName);
+		Assert.assertTrue(!employeeName.getText().contains(sFirstName), "Employee is not deleted.");
 	}	
 
 	@AfterMethod (description="Includes End method footer.")

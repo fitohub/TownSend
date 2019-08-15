@@ -3,13 +3,14 @@ package appModules;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
 import pageObjects.HomePage;
 import utility.Log;
 
 public class DeleteAction {
 	
-	public static Boolean ExecuteDelete(WebDriver driver, String sFirstName, String sLastNameChanged) throws Exception {
-		Boolean bol = false;
+	public static void ExecuteDelete(WebDriver driver, String sFirstName, String sLastNameChanged) throws Exception {
 		
 		WebElement employeeName;
 		employeeName = HomePage.searchEmployee(driver, sFirstName, sLastNameChanged);
@@ -28,10 +29,6 @@ public class DeleteAction {
 			driver.switchTo().alert().accept();
 			Log.info("Employee was removed from list.");
 			
-			bol = true;
-			
 		}	
-		
-		return bol;
 	}
 }

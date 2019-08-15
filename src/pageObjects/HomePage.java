@@ -43,9 +43,9 @@ public class HomePage {
 		} catch (Exception e) {
 			Log.info("Employee name not found.");
 		}
-
 		return element;		
 	}
+
 
 	public static boolean IsHomePagePresent(WebDriver driver) {
 		try 

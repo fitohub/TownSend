@@ -45,8 +45,11 @@ public class ReadPage extends Setup {
 	@Test (description="Read an employee information.", priority=1)
 	public static void Read() throws Exception {
 		if (HomePage.IsHomePagePresent(driver)) {
-			rc = ReadAction.ExecuteRead(driver, sFirstName, sLastName, sStartDate, sEmail);
-			Assert.assertTrue(rc, "Employee name not found.");
+			if (employeeName != null) {
+				ReadAction.ExecuteRead(driver, employeeName, sFirstName, sLastName, sStartDate, sEmail);
+			} else {
+				Assert.fail("Employee name not found.");		
+			}
 		}		
 	}
 
