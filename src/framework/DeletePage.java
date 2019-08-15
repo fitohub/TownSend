@@ -45,7 +45,7 @@ public class DeletePage extends Setup {
 			}
 		}
 		
-		Thread.sleep(200);
+		Thread.sleep(500);
 		employeeName = null;
 		employeeName = HomePage.searchEmployee(driver, sFirstName, sLastName);
 		Assert.assertTrue(!employeeName.getText().contains(sFirstName), "Employee is not deleted.");
