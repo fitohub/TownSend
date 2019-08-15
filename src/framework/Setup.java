@@ -25,7 +25,6 @@ public class Setup {
     public static String sLastNameChanged;
     public static String sStartDate;
     public static String sEmail;
-    public static Boolean rc = false; 
 
 	@BeforeSuite
 	public void startUp() throws Exception {
