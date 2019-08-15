@@ -69,7 +69,7 @@ No changes needed. Unless if you want to try a different name, date and/or e-mai
 
 # How to run (estimated time: 10 sec)
 1. Open the project TownSend in Eclipse;
-2. From Project Explorer, navigate through TownSend and run the file "testNG.xml" as TestNG Suite;
+2. From Project Explorer, navigate through TownSend and run the file "testng.xml" as TestNG Suite;
 3. The test will perform a CRUD with 6 test cases: SignIn, Create, Read, Update, Delete and SignOut against Café Townsend website. This is a zero-footprint execution.
 
 # Log File
