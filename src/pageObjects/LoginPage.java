@@ -29,6 +29,5 @@ public class LoginPage {
 		element = driver.findElement(By.xpath("//*[@type='submit']"));
 		Log.info("Login button found.");
 		return element;
-	}
-	
+	}	
 }
