@@ -3,7 +3,6 @@
 <suite name="TownSend Suite">
 	<test name="TownSend Test" preserve-order="true">
 		<classes>
-			<!-- <class name="framework.BasePage" /> -->
 			<class name="framework.LoginPage" />
 			<class name="framework.CreatePage" />
 			<class name="framework.ReadPage" />
@@ -11,5 +10,5 @@
 			<class name="framework.DeletePage" />
 			<class name="framework.LogoutPage" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> 
+</suite> 
