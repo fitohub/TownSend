@@ -1,0 +1,13 @@
+#  Don't track content of these folders
+.settings/
+.project
+.gitignore
+.DS_Store
+.classpath
+target/
+logfile.log
+test-output/
+src/.DS_Store
+src/testData/.DS_Store
+bin/
+
